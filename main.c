@@ -15,5 +15,4 @@ int main(int argc, char *argv[]) {
 	
 	printf("integer : %d, float : %f\n", input_int, input_float);
 	return 0;
-	return 0;
 }
