@@ -4,13 +4,15 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	char input_char, output_char;
+	float a, b, output;
 	
-	printf("input a char : " );
-	scanf("%c", &input_char);
+	printf("input a : " );
+	scanf("%f", &a);
+	printf("input b : " );
+	scanf("%f", &b);
 	
-	output_char = input_char +1 ;
-	printf("the next char of %c (%i) is %c (%i)\n", input_char, input_char, output_char, output_char);
+	output = a / b ;
+	printf("output : %f\n", output) ;
 	
 
 	return 0;
